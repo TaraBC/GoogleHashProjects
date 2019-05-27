@@ -1,0 +1,14 @@
+Servers in a data center are physically divided into rows. Rows can share resources such as electric
+power. If such a shared resource fails, we assume that the entire row is lost and all servers in that row
+become unavailable.
+Servers in a data center are also logically divided into pools. Each server belongs to exactly one pool,
+and provides it with some amount of computing resources, called capacity. The capacity of a pool is the
+sum of the capacities of the availableservers in that pool.
+To ensure reliability of a pool, it is therefore desirable to distribute its servers between different rows.
+Then, when a row fails, the pool can continue to operate on the servers from the remaining rows (albeit
+with a reduced capacity because of the unavailable servers). The guaranteed capacity of a pool is the
+minimum capacity it will have when at most one data center row goes down.
+Given a schema of a data center and a list of available servers, your goal is to assign servers to slots
+within the rowsand to logical poolsso that the lowest guaranteed capacityof all pools is maximized.
+
+//Copied directly from https://storage.googleapis.com/coding-competitions.appspot.com/HC/2015/hashcode2015_qualification_task.pdf
