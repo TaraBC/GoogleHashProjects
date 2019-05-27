@@ -1,0 +1,11 @@
+                                    -------------------------
+                                        Data Center info
+                                    -------------------------
+A data center is modeled as rows of slots in which servers can be placed.
+Some of the slots might be unavailable (e.g. because of other installations occupying some of the slots).
+
+                                    -------------------------
+                                            Servers
+                                    -------------------------
+Each server is characterized by its size and capacity. Size is the number of consecutive slots occupied
+by the machine. Capacity is the total amount of CPU resources of the machine (an integer value).
