@@ -9,3 +9,6 @@ Some of the slots might be unavailable (e.g. because of other installations occu
                                     -------------------------
 Each server is characterized by its size and capacity. Size is the number of consecutive slots occupied
 by the machine. Capacity is the total amount of CPU resources of the machine (an integer value).
+
+
+//Copied directly from https://storage.googleapis.com/coding-competitions.appspot.com/HC/2015/hashcode2015_qualification_task.pdf
