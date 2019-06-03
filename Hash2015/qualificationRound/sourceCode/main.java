@@ -1,9 +1,7 @@
 public class main {
-
+	private Server[] servers;
 	public static void main(String[] args) {
-		DataCentre dataCentre = new DataCentre(3,4);
-		dataCentre.returnCentre();
-
+		
 	}
 
 }
